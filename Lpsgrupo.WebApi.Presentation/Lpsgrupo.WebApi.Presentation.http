@@ -1,0 +1,6 @@
+@Lpsgrupo.WebApi.Presentation_HostAddress = http://localhost:5108
+
+GET {{Lpsgrupo.WebApi.Presentation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

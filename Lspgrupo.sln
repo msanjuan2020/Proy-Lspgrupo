@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scross", "Scross", "{BBC493C6-0BCB-44D7-9F91-B0824D4567AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{9E3FD79C-B2A7-4E76-A267-2043982D43E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{6DF25D6C-AE85-4B44-9451-8CF31788D4D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "rest", "rest", "{2C689DB0-7062-41A5-B57F-05D86C1E61DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ui", "ui", "{65B51BF4-8F94-48DB-835F-E57D751239EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lpsgrupo.WebApi.Presentation", "Lpsgrupo.WebApi.Presentation\Lpsgrupo.WebApi.Presentation.csproj", "{756D6DBA-48D2-45E9-8C9E-99254FD40232}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lpsgrupo.UI.Frontend", "Lpsgrupo.UI.Frontend\Lpsgrupo.UI.Frontend.csproj", "{7AB37581-FC26-41CB-AE27-36B8AAC4E713}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{756D6DBA-48D2-45E9-8C9E-99254FD40232}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{756D6DBA-48D2-45E9-8C9E-99254FD40232}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{756D6DBA-48D2-45E9-8C9E-99254FD40232}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{756D6DBA-48D2-45E9-8C9E-99254FD40232}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AB37581-FC26-41CB-AE27-36B8AAC4E713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AB37581-FC26-41CB-AE27-36B8AAC4E713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AB37581-FC26-41CB-AE27-36B8AAC4E713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AB37581-FC26-41CB-AE27-36B8AAC4E713}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6DF25D6C-AE85-4B44-9451-8CF31788D4D6} = {9E3FD79C-B2A7-4E76-A267-2043982D43E9}
+		{2C689DB0-7062-41A5-B57F-05D86C1E61DA} = {9E3FD79C-B2A7-4E76-A267-2043982D43E9}
+		{65B51BF4-8F94-48DB-835F-E57D751239EE} = {9E3FD79C-B2A7-4E76-A267-2043982D43E9}
+		{756D6DBA-48D2-45E9-8C9E-99254FD40232} = {2C689DB0-7062-41A5-B57F-05D86C1E61DA}
+		{7AB37581-FC26-41CB-AE27-36B8AAC4E713} = {65B51BF4-8F94-48DB-835F-E57D751239EE}
+	EndGlobalSection
+EndGlobal
