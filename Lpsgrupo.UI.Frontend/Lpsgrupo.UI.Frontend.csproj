@@ -6,4 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Lspgrupo.Cross.Entities\Lspgrupo.Cross.Entities.csproj" />
+  </ItemGroup>
+
 </Project>

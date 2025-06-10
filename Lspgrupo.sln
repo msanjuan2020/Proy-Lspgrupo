@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scross", "Scross", "{BBC493C6-0BCB-44D7-9F91-B0824D4567AE}"
 EndProject
@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lpsgrupo.WebApi.Presentatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lpsgrupo.UI.Frontend", "Lpsgrupo.UI.Frontend\Lpsgrupo.UI.Frontend.csproj", "{7AB37581-FC26-41CB-AE27-36B8AAC4E713}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lspgrupo.Cross.Entities", "Lspgrupo.Cross.Entities\Lspgrupo.Cross.Entities.csproj", "{5C522992-8D86-4232-A4EA-E9E96F1482AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{7AB37581-FC26-41CB-AE27-36B8AAC4E713}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AB37581-FC26-41CB-AE27-36B8AAC4E713}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7AB37581-FC26-41CB-AE27-36B8AAC4E713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C522992-8D86-4232-A4EA-E9E96F1482AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C522992-8D86-4232-A4EA-E9E96F1482AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C522992-8D86-4232-A4EA-E9E96F1482AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C522992-8D86-4232-A4EA-E9E96F1482AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,5 +47,6 @@ Global
 		{65B51BF4-8F94-48DB-835F-E57D751239EE} = {9E3FD79C-B2A7-4E76-A267-2043982D43E9}
 		{756D6DBA-48D2-45E9-8C9E-99254FD40232} = {2C689DB0-7062-41A5-B57F-05D86C1E61DA}
 		{7AB37581-FC26-41CB-AE27-36B8AAC4E713} = {65B51BF4-8F94-48DB-835F-E57D751239EE}
+		{5C522992-8D86-4232-A4EA-E9E96F1482AF} = {BBC493C6-0BCB-44D7-9F91-B0824D4567AE}
 	EndGlobalSection
 EndGlobal
