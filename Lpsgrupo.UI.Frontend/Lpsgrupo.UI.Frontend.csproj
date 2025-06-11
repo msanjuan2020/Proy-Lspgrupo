@@ -7,7 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="Components\Styles\input.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Lspgrupo.Cross.Entities\Lspgrupo.Cross.Entities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\css\" />
   </ItemGroup>
 
 </Project>
